@@ -15,10 +15,20 @@
 			float: left;
 			width: 50%;
 		}
+		img#responsive{
+			display: none;
+		}
+		@media screen and (max-width: 768px) {
+			img#responsive{
+				display: block;
+			}
+		}
 	</style>
 </head>
 <body>
 	<img src="img/header.jpg" alt="">
+	<img src="img/header3.jpg" alt="">
+	<img src="img/header6.png" alt="" id='responsive'>
 	<div>
 		<div class='div-6'>
 			<img src="img/maxresdefault.jpg" alt="">
